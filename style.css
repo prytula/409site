@@ -1,0 +1,102 @@
+
+
+h1, h2, h3, h4, h5 {
+    color: #FFFFFF;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+}
+
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+}
+
+.header{
+  position: absolute;
+  width: 100%;
+  height: 10vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100%;
+  background-color: rgba(153, 50, 204, 0.7);
+  opacity: 0.5;
+  transition: opacity 0.2s linear;
+}
+
+.header:hover{
+  opacity: 1;
+}
+
+nav{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav_link{
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.2s linear;
+  margin: 0 30px;
+}
+
+.nav_link:hover{
+  color:#FFD700;
+}
+
+.header_nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: 50%;
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 55px;
+  color: white;
+  opacity: 0.9;
+  vertical-align: middle;
+}
+
+.text_box{
+  position:absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10vh;
+  margin: 10;
+  height: 100%;
+  width: 60%;
+}
+h1, h2, h3, h4{
+  font-family: 'Libre Barcode 39 Text', cursive;
+  color: black;
+  margin: 3%;
+  font-size: 40px;
+}
+.text {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
